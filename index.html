@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt - BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container-fluid p-2 bg-danger text-center">
+        <nav class="navbar navbar-expand-lg bg-danger">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Guissangas</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Bolsas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Jóias</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Contato
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Instagram</a></li>
+                                <li><a class="dropdown-item" href="#">Tiktok</a></li>
+                                <li><a class="dropdown-item" href="#">WhatsApp</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <h1></h1>
+    </header>
+    <section class="container-fluid bg-light text-center p-2">
+        <h2>Conheça nossa nova linha de bolsas</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Donec pellentesque enim sed placerat convallis. Vestibulum in tempor lectus.
+            Maecenas viverra rutrum velit id consectetur. Aliquam cursus, nisl a bibendum mollis,
+            felis sem luctus risus, a imperdiet erat augue lobortis orci.
+            Donec nisi orci, ultricies sed ante tempus, luctus ultrices purus. Vestibulum condimentum laoreet mi, et
+            ornare
+            dolor suscipit eget.
+            Sed ut magna et turpis consectetur auctor.
+            <br><br>
+            <a href="https://www.lipsum.com/feed/html"></a>
+            <hr>
+        </p>
+        <div class="row">
+            <figure class="col text-center">
+                <img src="img/bolsa_1.jpg" alt="Bolsa em estilo pérola" width="320" height="300">
+                <figcaption>Bolsa pérolas - Chic</figcaption>
+            </figure>
+            <figure class="col text-center">
+                <img src="img/bolsa_4.jpg" alt="Bolsa Vermelha" width="320" height="300">
+                <figcaption>Bolsa pérolas vermelhas - Elegrante</figcaption>
+            </figure>
+            <figure class="col text-center">
+                <img src="img/bolsa_3.jpg" alt="Bolsa romântica rosa" width="320" height="300">
+                <figcaption>Bolsa cristais rosa - Romântica </figrecaption>
+            </figure>
+    </section>
+    <section class="container-fluid bg-danger text-center p-2">
+        <h2 >Taxas e Envios</h2>
+        <table class="table table-danger table-striped table-hover table-bordered border-danger">
+            <caption>Descrição dos serviços e respectivos valores</caption>
+            <thead class="table-active">
+                <tr>
+                    <th>
+                        Serviço
+                    </th>
+                    <th>
+                        Valor
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <td>
+                        Envio Portugal continental 
+                    </td>
+                    <td>
+                        Taxa fixa 10€
+                    </td>
+                <tr>
+                    <td>
+                        Entrega estafeta - (mesmo dia)
+                    </td>
+                    <td>
+                        Porto, Rio Tinto e Gaia 20€
+                    </td>
+                </tr>
+            </tbody>
+            </tr>
+        </table>
+    </section>
+    <section class="container-fluid bg-light p-2">
+        <h2 class="text-center">NEWSLETTER</h2>
+        <form method="get" action="">
+            <fieldset>
+                <legend>Subscreva para receber atualizações, acesso a ofertas exclusivas e muito mais.</legend>
+                <div class="mb-3>
+                    <label class=" form-label" for="nome">
+                    Nome:
+                    </label>
+                    <input type="text" class="form-control" name="nome" id="nome">
+                </div>
+
+                <div class="mb-3>
+                    <label class=" form-label" for="email">
+                    Email:
+                    </label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="email@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="inputFone" class="control-label">Telefone:</label>
+                    <input type="text" class="form-control" id="inputFone" placeholder="123456789">
+                  <div class="help-block with-errors"></div>
+            </fieldset>
+            <fieldset>
+                <legend>Termos e condições</legend>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="termo" value="termo" id="termo">
+                    <label class="form-check-label" for="compraPassagens">
+                        Li e compreendo os Termos e Condições e a Política de Privacidade
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="emailAtualiza" value="emailAtualiza" id="emailAtualiza">
+                <label class="form-check-label" for="emailAtualiza">
+                    Desejo receber por email promoções e atualizações
+                </label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="smsAtualiza" value="smsAtualiza" id="smsAtualiza">
+                <label class="form-check-label" for="emailAtualiza">
+                    Desejo receber por SMS promoções e atualizações
+                </label>
+                </div>
+
+            </fieldset>
+            <br><button class="btn btn-secondary">Salvar</button>
+
+
+        </form>
+    </section>
+    <br><footer class="container-fluid bg-danger text-center p-2">
+        <p>Desenvolvido por Ana Lourenço Fevereiro/2024 © </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
